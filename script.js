@@ -26,3 +26,9 @@ closeNav.addEventListener('click', () => {
     sideBar.classList.remove('open');
     overlay.classList.add('hidden')
 })
+sideBarBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+       sideBar.classList.remove('open');
+    overlay.classList.add('hidden') 
+    })
+})
