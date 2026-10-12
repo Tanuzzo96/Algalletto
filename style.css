@@ -1,3 +1,4 @@
+
 :root{
     --font:rgb(255, 196, 0);
     --font2:rgb(209, 162, 6);
@@ -417,7 +418,6 @@ footer{
     background-color: rgb(65, 3, 3);
     color: var(--background1);
 }
-
 
 #menu {
     scroll-margin-top: 80px;

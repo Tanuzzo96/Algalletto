@@ -6,6 +6,7 @@ const closeBtn = document.getElementById('close-btn');
 const overlay =document.querySelector('.overlay');
 const sideBar = document.getElementById('side-bar');
 const closeNav = document.getElementById('close-nav');
+const sideBarBtns = document.querySelectorAll('.side-bar-btn')
 
 
 menubtn.addEventListener('click', ()=>{
@@ -26,6 +27,7 @@ closeNav.addEventListener('click', () => {
     sideBar.classList.remove('open');
     overlay.classList.add('hidden')
 })
+
 sideBarBtns.forEach(btn => {
     btn.addEventListener('click', () => {
        sideBar.classList.remove('open');
