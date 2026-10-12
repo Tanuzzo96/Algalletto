@@ -16,7 +16,7 @@
 <header>
   <select name="language" id="language">
     <option value="English">English</option>
-    <option value="Italiano">Italiano</option>
+    <option value="Italiano" selected>Italiano</option>
   </select>
   <h1>Il Galletto</h1>
 
@@ -48,80 +48,9 @@ Al Galletto — cucina romana, proprio come ’na vorta.
 <img src="./pics/Colosseo_2020.jpg" alt="" id="pic3">
 
 </section>
-<section id="menu">
+<div id="menu">
   <button type="button" id="menu-btn">APRI ER MENU'</button>
-    <div id="menu-box" hidden>
-      <h2>Menu</h2>
-
-    <section>
-        <h3>Antipasti</h3>
-        <ul>
-            <li>Supplì al ragù <span>€3,00</span></li>
-            <li>Fiore di zucca ripieno <span>€4,50</span></li>
-            <li>Bruschette al pomodoro <span>€5,00</span></li>
-            <li>Fritto misto romano <span>€8,00</span></li>
-            <li>Tagliere di salumi e formaggi <span>€12,00</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h3>Primi</h3>
-        <ul>
-            <li>Spaghetti alla Carbonara <span>€12,00</span></li>
-            <li>Bucatini all'Amatriciana <span>€11,00</span></li>
-            <li>Rigatoni alla Gricia <span>€11,00</span></li>
-            <li>Cacio e Pepe <span>€10,00</span></li>
-            <li>Tonnarelli alla Galletto <span>€13,00</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h3>Secondi</h3>
-        <ul>
-            <li>Saltimbocca alla Romana <span>€16,00</span></li>
-            <li>Coda alla Vaccinara <span>€17,00</span></li>
-            <li>Polpette al sugo <span>€14,00</span></li>
-            <li>Abbacchio alla scottadito <span>€18,00</span></li>
-            <li>Pollo al Galletto <span>€16,00</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h3>Contorni</h3>
-        <ul>
-            <li>Cicoria ripassata <span>€5,00</span></li>
-            <li>Patate al forno <span>€5,00</span></li>
-            <li>Carciofo alla Romana <span>€6,00</span></li>
-            <li>Puntarelle alla Romana <span>€6,00</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h3>Dolci</h3>
-        <ul>
-            <li>Tiramisù della casa <span>€6,00</span></li>
-            <li>Crostata ricotta e visciole <span>€6,00</span></li>
-            <li>Maritozzo con panna <span>€5,00</span></li>
-            <li>Panna cotta <span>€5,00</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h3>Bevande</h3>
-        <ul>
-            <li>Acqua naturale/frizzante <span>€2,00</span></li>
-            <li>Birra alla spina 0,4 L <span>€5,00</span></li>
-            <li>Calice di vino della casa <span>€5,00</span></li>
-            <li>Bottiglia di vino della casa <span>€18,00</span></li>
-            <li>Caffè <span>€2,00</span></li>
-        </ul>
-        
-    </section>
-
-
-    <p>Coperto — €2,00 a persona</p>
-    </div>
-</section>
+</div>
 <section id="location"hidden>
 <div class="card" id="card-1"><img src="" alt=""><p></p>
 <button type="button"></button>
@@ -151,8 +80,94 @@ Al Galletto — cucina romana, proprio come ’na vorta.
 <footer>
   <p>prodotto dal fra 2025 AD</p>
 </footer>
+<div id="menu-lightbox" hidden>
+      <div id="menu-container">
+        <h2>Menu</h2>
 
-  
+    <section class="menu one">
+        <h3>Antipasti</h3>
+        <ul>
+            <li>Supplì al ragù <span>€3,00</span></li>
+            <li>Fiore di zucca ripieno <span>€4,50</span></li>
+            <li>Bruschette al pomodoro <span>€5,00</span></li>
+            <li>Fritto misto romano <span>€8,00</span></li>
+            <li>Tagliere di salumi e formaggi <span>€12,00</span></li>
+        </ul>
+    </section>
+
+    <section class="menu 2">
+        <h3>Primi</h3>
+        <ul>
+            <li>Spaghetti alla Carbonara <span>€12,00</span></li>
+            <li>Bucatini all'Amatriciana <span>€11,00</span></li>
+            <li>Rigatoni alla Gricia <span>€11,00</span></li>
+            <li>Cacio e Pepe <span>€10,00</span></li>
+            <li>Tonnarelli alla Galletto <span>€13,00</span></li>
+        </ul>
+    </section>
+
+   <section class="menu 3">
+        <h3>Secondi</h3>
+        <ul>
+            <li>Saltimbocca alla Romana <span>€16,00</span></li>
+            <li>Coda alla Vaccinara <span>€17,00</span></li>
+            <li>Polpette al sugo <span>€14,00</span></li>
+            <li>Abbacchio alla scottadito <span>€18,00</span></li>
+            <li>Pollo al Galletto <span>€16,00</span></li>
+        </ul>
+    </section>
+
+    <section class="menu 4">
+        <h3>Contorni</h3>
+        <ul>
+            <li>Cicoria ripassata <span>€5,00</span></li>
+            <li>Patate al forno <span>€5,00</span></li>
+            <li>Carciofo alla Romana <span>€6,00</span></li>
+            <li>Puntarelle alla Romana <span>€6,00</span></li>
+        </ul>
+    </section>
+
+    <section class="menu 5">
+        <h3>Dolci</h3>
+        <ul>
+            <li>Tiramisù della casa <span>€6,00</span></li>
+            <li>Crostata ricotta e visciole <span>€6,00</span></li>
+            <li>Maritozzo con panna <span>€5,00</span></li>
+            <li>Panna cotta <span>€5,00</span></li>
+        </ul>
+    </section>
+
+    <section class="menu 6">
+        <h3>Bevande</h3>
+        <ul>
+            <li>Acqua naturale/frizzante <span>€2,00</span></li>
+            <li>Birra alla spina 0,4 L <span>€5,00</span></li>
+            <li>Calice di vino della casa <span>€5,00</span></li>
+            <li>Bottiglia di vino della casa <span>€18,00</span></li>
+            <li>Caffè <span>€2,00</span></li>
+        </ul>
+        </div>
+        <button type="button" id="close-btn">x</button>
+        
+    </section>
+
+
+    <p>Coperto — €2,00 a persona</p>
+    </div>
+
+    <div class="overlay hidden">
+      
+    </div>
+    <aside id="side-bar">
+      <h3>naviga</h3>
+      <ul>
+        <li><a href="#about-us">chi siamo</a></li>
+        <li><a href="#contacts">contattaci</a></li>
+        <li><a href="">menu</a></li>
+        <li><button type="button" id="close-nav">chiudi</button></li>
+      </ul>
+      </aside>
+  <script src="script.js"></script>
 </body>
 </html>
 
